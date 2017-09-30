@@ -10,7 +10,7 @@ LIGHT="\[\e[0;37m\]"
 NC="\[\e[0m\]"
 
 
-PS1="<${BLUE}\u${NC}@${GREEN}\h${NC}:\W${NC}> \$ "
+PS1="<${BLUE}\u${NC}@${GREEN}mac${NC}:\W${NC}> \$ "
 
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export EDITOR=vim
