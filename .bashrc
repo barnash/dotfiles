@@ -59,7 +59,7 @@ alias vinginx='vim /usr/local/etc/nginx/nginx.conf'
 # Fix shell stuff LC stuff
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-HISTCONTROL=ignoreboth
+export HISTCONTROL=ignoreboth
 
 # Check git managed directories
 function checkgitdir() {
@@ -79,8 +79,6 @@ checkgitdir "/etc"
 if [ -f ~/.bashrc_local ]; then
     source ~/.bashrc_local
 fi
-
-export PATH="$PATH:/usr/local/sbin:/Users/iftachbar/work/rounds/tmux-cssh/"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
