@@ -91,9 +91,7 @@ source '/Users/iftachbar/google-cloud-sdk/path.bash.inc'
 # The next line enables shell command completion for gcloud.
 source '/Users/iftachbar/google-cloud-sdk/completion.bash.inc'
 
-# big panda
 source ~/.nvm/nvm.sh
-source ~/.bigpandalogin
 
 #source ~/.profile
 
