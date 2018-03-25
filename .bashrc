@@ -30,15 +30,6 @@ alias stylecode="highlight -O rtf $1 -K 24 --style darkness"
 alias null="cat > /dev/null"
 alias rmds="find . -name .DS_Store | xargs rm"
 
-# Virtualenv
-#function va_active() { source "$HOME/.virtualenvs/$1/bin/active"; }
-#alias activate='va_activate'
-#complete -W "`ls $HOME/.virtualenvs`" activate
-#source /usr/local/bin/virtualenv-3.4
-export PIP_REQUIRE_VIRTUALENV=true
-export WORKON_HOME=~/.virtualenvs
-source /usr/local/bin/virtualenvwrapper.sh
-
 # json format
 alias tojson='python -mjson.tool'
 
