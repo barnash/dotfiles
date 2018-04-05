@@ -1,6 +1,6 @@
 [user]
 	name = "Iftach Bar"
-	email = iftach@impactlabs.co.il
+	email = iftach@riseup.co.il
 [core]
 	excludesfile = /Users/iftachbar/.gitignore_global
 	mergeoptions = --no-edit
