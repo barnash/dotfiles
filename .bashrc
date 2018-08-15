@@ -88,3 +88,5 @@ source ~/.nvm/nvm.sh
 
 # added by travis gem
 [ -f /Users/iftachbar/.travis/travis.sh ] && source /Users/iftachbar/.travis/travis.sh
+
+complete -C /usr/local/bin/terraform terraform
