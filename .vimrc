@@ -15,3 +15,5 @@ set wildmenu
 set backspace=2 " make backspace work like most other apps
 
 set hidden
+
+autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy

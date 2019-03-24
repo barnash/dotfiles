@@ -90,3 +90,5 @@ source ~/.nvm/nvm.sh
 [ -f /Users/iftachbar/.travis/travis.sh ] && source /Users/iftachbar/.travis/travis.sh
 
 complete -C /usr/local/bin/terraform terraform
+
+source ~/.dotfile/.bashrc_private
