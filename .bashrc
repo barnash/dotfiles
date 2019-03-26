@@ -91,4 +91,4 @@ source ~/.nvm/nvm.sh
 
 complete -C /usr/local/bin/terraform terraform
 
-source ~/.dotfile/.bashrc_private
+source ~/.dotfiles/.bashrc_private
