@@ -17,3 +17,6 @@ set backspace=2 " make backspace work like most other apps
 set hidden
 
 autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
+
+" Enable spell check for git commits. 
+autocmd FileType gitcommit setlocal spell
