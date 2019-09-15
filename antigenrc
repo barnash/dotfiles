@@ -1,0 +1,24 @@
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle github
+antigen bundle brew
+antigen bundle nvm
+antigen bundle command-not-found
+antigen bundle docker-compose
+
+# zsh-users bundles
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-history-substring-search
+
+# Custom bundles
+antigen bundle lukechilds/zsh-nvm
+
+# Load the theme.
+antigen theme robbyrussell
+
+# Tell Antigen that you're done.
+antigen apply

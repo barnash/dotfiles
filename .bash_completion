@@ -1,1 +1,0 @@
-complete -W "$(echo `cat ~/.ssh/known_hosts | cut -f 1 -d ' ' | sed -e s/,.*//g | uniq | grep -v "\["`;) $(grep '^Host' ~/.ssh/config | awk '{print $2}')" ssh scp
