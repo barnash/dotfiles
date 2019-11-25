@@ -3,6 +3,10 @@ antigen init .antigenrc
 
 export EDITOR=vim
 
+# Locale
+export LC_ALL=en_US.UTF-8  
+export LANG=en_US.UTF-8
+
 # Aliases
 alias tojson='python -mjson.tool'
 alias nptul="lsof -nP -i4TCP | grep LISTEN"
