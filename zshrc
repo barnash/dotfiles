@@ -12,6 +12,7 @@ alias tojson='python -mjson.tool'
 alias nptul="lsof -nP -i4TCP | grep LISTEN"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d ' ' -f2"
 alias dkps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.RunningFor}}\t{{.Status}}\t{{.Ports}}"'
+#alias dklogs='docker-compose logs -t -f --tail=10'
 
 # Check git managed directories
 function checkgitdir() {
