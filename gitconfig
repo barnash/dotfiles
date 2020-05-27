@@ -12,9 +12,11 @@
 	status = auto
 [alias]
 	st = status -sb
-    ci = commit
+  ci = commit
 [github]
 	user = barnash
 	token = 48b9362c7349d9be7e26b270fcd1e8ae
 [push]
 	default = upstream
+[pull]
+	ff = only
