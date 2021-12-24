@@ -20,3 +20,6 @@ autocmd BufNewFile,BufRead Jenkinsfile set syntax=groovy
 
 " Enable spell check for git commits. 
 autocmd FileType gitcommit setlocal spell
+
+" Use new regular expression engine
+set re=0
