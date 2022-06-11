@@ -1,0 +1,7 @@
+#compf stam _stam
+function _stam {
+  local -a subcmds
+  subcmds=('c:description for c command' 'd:description for d command')
+  _describe 'command' subcmds
+  #compadd $(yq e -o=c ".services | keys" ${BOB_DIR}/docker-compose.yml | tr "," "\n")
+}
