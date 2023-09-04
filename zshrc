@@ -1,5 +1,5 @@
-source $HOME/antigen.zsh
-antigen init .antigenrc
+#source $HOME/antigen.zsh
+#antigen init .antigenrc
 
 fpath=($HOME/.zsh-completions $fpath)
 
@@ -10,6 +10,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Aliases
+alias ls='ls --color -F'
 alias tojson='python -mjson.tool'
 alias nptul="lsof -nP -i4TCP | grep LISTEN"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d ' ' -f2"
