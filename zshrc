@@ -20,7 +20,7 @@ alias tojson='python -mjson.tool'
 alias nptul="lsof -nP -i4TCP | grep LISTEN"
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d ' ' -f2"
 alias dkps='docker ps --format "table {{.ID}}\t{{.Names}}\t{{.RunningFor}}\t{{.Status}}\t{{.Ports}}"'
-alias dklogs='docker-compose logs -t -f --tail=10'
+alias dklogs='docker compose logs -t -f --tail=10'
 
 
 # Check git managed directories
@@ -42,9 +42,9 @@ if [ -f ~/.zshrc_private ]; then
 fi
 
 # Aliases using private
-alias dkstop="docker-compose -f ${BOB_DIR}/docker-compose.yml stop"
-alias dkstart="docker-compose -f ${BOB_DIR}/docker-compose.yml start"
-alias dkrestart="docker-compose -f ${BOB_DIR}/docker-compose.yml restart"
+alias dkstop="docker compose -f ${BOB_DIR}/docker-compose.yml stop"
+alias dkstart="docker compose -f ${BOB_DIR}/docker-compose.yml start"
+alias dkrestart="docker compose -f ${BOB_DIR}/docker-compose.yml restart"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
