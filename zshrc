@@ -72,7 +72,17 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
+# Add zoxxide
+eval "$(zoxide init zsh)"
+
 export PYENV_ROOT="$HOME/.pyenv"
 [[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init - bash)"
 export PATH="$HOME/.local/bin:$PATH"
+
+# For calude LSP tool
+export ENABLE_LSP_TOOL=1
+
+# peon-ping quick controls
+alias peon="bash ~/.claude/hooks/peon-ping/peon.sh"
+export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"

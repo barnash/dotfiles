@@ -21,3 +21,6 @@
 	ff = only
 [pager]
 	branch = false
+
+[includeIf "gitdir:~/work/orchid/"]
+  path = ~/.gitconfig-orchid
